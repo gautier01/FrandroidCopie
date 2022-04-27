@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: rgb(36, 39, 73);
+}
+.bandeVisuel {
+  height: 8px;
+  width: 100%;
+  background: linear-gradient(0.25turn, #6571ee, #e66465);
+}
