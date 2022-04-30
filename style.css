@@ -5,10 +5,174 @@
 }
 
 body {
-  background: rgb(36, 39, 73);
+  background: rgb(31, 33, 61);
 }
+
 .bandeVisuel {
   height: 8px;
   width: 100%;
   background: linear-gradient(0.25turn, #6571ee, #e66465);
 }
+
+header {
+  height: 65px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.barreHeader {
+  content: "";
+  position: absolute;
+  height: 65px;
+  width: 100%;
+  background: rgb(43, 46, 78);
+}
+
+.checkboxClass {
+  display: none;
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
+
+.labelClass {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50% 50%;
+  background: rgb(43, 46, 78);
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.titreMenu {
+  color: #6571ee;
+  font-size: 10px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  opacity: 1;
+  transition: all, 0.3s;
+}
+
+.labelClass:hover > p {
+  opacity: 0;
+}
+
+.point1 {
+  position: absolute;
+  top: 5px;
+  left: 22.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(190, 71, 220);
+}
+
+.point1::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(159, 88, 206);
+}
+
+.point1::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(109, 51, 147);
+  transition: all, 0.3s;
+}
+
+.labelClass:hover > .point1::after {
+  background: rgb(241, 14, 75);
+}
+
+.point2 {
+  position: absolute;
+  top: 17.5px;
+  left: 22.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(186, 44, 110);
+  transition: all, 0.3s;
+}
+
+.labelClass:hover > .point2 {
+  background: rgb(212, 72, 11);
+}
+
+.point2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(208, 71, 71);
+}
+
+.point2::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(137, 79, 177);
+}
+
+.point3 {
+  position: absolute;
+  top: 29.5px;
+  left: 22.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(11, 79, 146);
+}
+
+.point3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(241, 117, 14);
+}
+
+.point3::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50% 50%;
+  background: rgb(11, 93, 175);
+}
+
+/* Animation au survole du bouton menu */
