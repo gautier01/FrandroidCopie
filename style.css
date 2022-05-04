@@ -12,6 +12,8 @@ body {
   height: 8px;
   width: 100%;
   background: linear-gradient(0.25turn, #6571ee, #e66465);
+  z-index: 1000;
+  position: fixed;
 }
 
 header {
@@ -25,6 +27,7 @@ header {
   position: relative;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 2px;
 }
 
 .barreHeader {
@@ -53,6 +56,7 @@ img {
   background: rgb(43, 46, 78);
   cursor: pointer;
   top: 5px;
+  z-index: 700;
 }
 
 .titreMenu {
@@ -340,4 +344,66 @@ a {
 
 .menuSimple5:hover > .barre5 {
   width: 49px;
+}
+
+/* Menu déroulant */
+
+.menuChecked {
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  border-radius: 50% 50%;
+  position: absolute;
+  background: rgb(43, 46, 78);
+  transition: all 0.5s;
+  z-index: 500;
+  position: fixed;
+}
+
+.checkboxClass:checked + .menuChecked {
+  transform: scale(100);
+}
+
+.checkboxClass:checked ~ .labelClass > .point1 {
+  opacity: 0;
+}
+
+.checkboxClass:checked ~ .labelClass > .point2 {
+  opacity: 0;
+}
+
+.checkboxClass:checked ~ .labelClass > .point3 {
+  opacity: 0;
+}
+
+.checkboxClass:checked ~ .labelClass > p {
+  opacity: 0;
+}
+
+.checkboxClass:checked ~ .labelClass > .croixComplete > .croix {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px 2px;
+  top: 15px;
+  left: 15px;
+  position: absolute;
+  background: rgb(103, 76, 240) 00;
+  transform: rotate(45deg);
+}
+
+.checkboxClass:checked ~ .labelClass > .croixComplete > .croix2 {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px 2px;
+  top: 15px;
+  left: 15px;
+  position: absolute;
+  background: rgb(103, 76, 240) 00;
+  transform: rotate(135deg);
+}
+
+/* header du menu */
+
+.menu {
+  position: relative;
 }
