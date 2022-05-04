@@ -28,7 +28,6 @@ header {
 }
 
 .barreHeader {
-  content: "";
   position: absolute;
   height: 65px;
   width: 100%;
@@ -50,9 +49,10 @@ img {
   height: 50px;
   width: 50px;
   border-radius: 50% 50%;
+  margin-right: 15px;
   background: rgb(43, 46, 78);
   cursor: pointer;
-  margin-right: 15px;
+  top: 5px;
 }
 
 .titreMenu {
@@ -114,7 +114,7 @@ img {
   height: 4px;
   border-radius: 50% 50%;
   background: rgb(186, 44, 110);
-  transition: all, 0.3s;
+  transition: all, 0.15s;
 }
 
 .labelClass:hover > .point2 {
@@ -175,4 +175,169 @@ img {
   background: rgb(11, 93, 175);
 }
 
-/* Animation au survole du bouton menu */
+/* bouton paramètre */
+
+.btnParam {
+  cursor: pointer;
+}
+
+.param {
+  height: 30px;
+  width: 30px;
+  fill: rgb(103, 76, 240);
+  margin-right: 15px;
+}
+
+/* bouton recherche */
+
+.btnRech {
+  cursor: pointer;
+}
+
+.rech {
+  height: 30px;
+  width: 30px;
+  fill: rgb(216, 84, 93);
+  margin-right: 20px;
+}
+
+/* titre FRANDROID */
+
+.logoF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.F {
+  position: relative;
+  top: -1px;
+}
+
+.dessus {
+  height: 6px;
+  width: 20px;
+  background: linear-gradient(0.25turn, #f33ded, #3c4cf6);
+  margin-bottom: 2px;
+  border-radius: 3px;
+}
+
+.milieu {
+  height: 6px;
+  width: 12px;
+  background: linear-gradient(0.25turn, #ff8b32, #f33ded);
+  border-radius: 3px;
+}
+
+.dessous {
+  height: 6px;
+  width: 6px;
+  background: blue;
+  margin-top: 2px;
+  border-radius: 3px;
+  background: #ff8b32;
+}
+
+h1 {
+  color: #3c4cf6;
+  margin-right: 20px;
+}
+
+/* Sous menu 1 */
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Actus {
+  color: #6571ee;
+  margin-right: 8px;
+}
+
+.barre1 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background: #6571ee;
+  transition: all, 0.3s;
+}
+
+.menuSimple1:hover > .barre1 {
+  width: 50px;
+}
+
+/* Sous menu 2 */
+
+.Tests {
+  color: #65eed5;
+  margin-right: 8px;
+}
+
+.barre2 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background: #65eed5;
+  transition: all, 0.3s;
+}
+
+.menuSimple2:hover > .barre2 {
+  width: 45px;
+}
+
+/* Sous menu 3 */
+
+.Guides {
+  color: #b9468b;
+  margin-right: 8px;
+}
+
+.barre3 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background: #b9467a;
+  transition: all, 0.3s;
+}
+
+.menuSimple3:hover > .barre3 {
+  width: 63px;
+}
+
+/* Sous menu 4 */
+
+.BonsPlans {
+  color: #d0592d;
+  margin-right: 8px;
+}
+
+.barre4 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background: #d0592d;
+  transition: all, 0.3s;
+}
+
+.menuSimple4:hover > .barre4 {
+  width: 98px;
+}
+
+/* Sous menu 5 */
+
+.Tutos {
+  color: #c065ee;
+  margin-right: 8px;
+}
+
+.barre5 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background: #c065ee;
+  transition: all, 0.3s;
+}
+
+.menuSimple5:hover > .barre5 {
+  width: 49px;
+}
