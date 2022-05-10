@@ -405,5 +405,76 @@ a {
 /* header du menu */
 
 .menu {
-  position: relative;
+  position: absolute;
+  display: none;
+  transition: all, 0.5s;
 }
+
+.checkboxClass:checked ~ .menu {
+  display: block;
+  z-index: 1800;
+  top: 0px;
+  left: 125px;
+  width: 800px;
+  height: auto;
+}
+
+.hUn {
+  font-size: 2em;
+}
+
+.sousHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 65px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.reseaux {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.facebook {
+  height: 25px;
+  width: 25px;
+  fill: #3b5998;
+  margin-right: 20px;
+}
+
+.instagram {
+  height: 30px;
+  width: 30px;
+  fill: rgb(215, 63, 73);
+  margin-right: 20px;
+}
+
+.twitter {
+  height: 25px;
+  width: 25px;
+  fill: #00aced;
+  margin-right: 20px;
+}
+
+.wifi {
+  height: 25px;
+  width: 25px;
+  fill: rgb(216, 106, 84);
+  margin-right: 20px;
+}
+
+.youtube {
+  height: 25px;
+  width: 25px;
+  fill: #bb0000;
+  margin-right: 20px;
+}
+
+/* Contenu du menu */
