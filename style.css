@@ -12,7 +12,7 @@ body {
   height: 8px;
   width: 100%;
   background: linear-gradient(0.25turn, #6571ee, #e66465);
-  z-index: 1000;
+  z-index: 2000;
   position: fixed;
 }
 
@@ -421,6 +421,11 @@ a {
 
 .hUn {
   font-size: 2em;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
 }
 
 .sousHeader {
@@ -478,3 +483,72 @@ li {
 }
 
 /* Contenu du menu */
+
+.selection {
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.catégories {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #5560d6dc;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+h2:hover {
+  color: whitesmoke;
+}
+
+h3 {
+  cursor: pointer;
+  color: whitesmoke;
+  transition: color 0.15s;
+}
+h3:hover {
+  color: #5560d6dc;
+}
+
+li {
+  cursor: pointer;
+}
+
+h3 + ul > li {
+  color: whitesmoke;
+  font-family: sans-serif;
+  transition: color 0.15s;
+}
+
+h3 + ul > li:hover {
+  color: #5560d6dc;
+  font-family: sans-serif;
+  transition: color 0.15s;
+}
+
+.android {
+  color: #65eed5;
+}
+
+.bonsPlans {
+  color: rgb(216, 106, 84);
+}
+
+.BP {
+  display: flex;
+}
+
+.flamme {
+  width: 30px;
+  height: 30px;
+  fill: rgb(216, 106, 84);
+}
+
+.flèche {
+  fill: #5560d6dc;
+}
