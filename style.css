@@ -407,7 +407,6 @@ a {
 .menu {
   position: absolute;
   display: none;
-  transition: all, 0.5s;
 }
 
 .checkboxClass:checked ~ .menu {
@@ -547,8 +546,44 @@ h3 + ul > li:hover {
   width: 30px;
   height: 30px;
   fill: rgb(216, 106, 84);
+  transform: translate(0, 10px);
+  transition: all, 0.15s;
 }
 
 .flèche {
   fill: #5560d6dc;
+  padding-bottom: 1px;
+  transition: all 0.15s;
+}
+
+h2:hover > .flèche {
+  fill: whitesmoke;
+  transform: translate(5px, 0%);
+}
+
+.flècheBP {
+  fill: rgb(216, 106, 84);
+  padding-bottom: 1px;
+  transition: all 0.15s;
+}
+
+h2:hover > .flècheBP {
+  fill: whitesmoke;
+  transform: translate(5px, 0%);
+}
+
+.flècheAND {
+  fill: #65eed5;
+  padding-bottom: 1px;
+  transition: all 0.15s;
+}
+
+h2:hover > .flècheAND {
+  fill: whitesmoke;
+  transform: translate(5px, 0%);
+}
+
+h2:hover > .flamme {
+  fill: whitesmoke;
+  transform: rotate(300deg);
 }
