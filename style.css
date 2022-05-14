@@ -31,7 +31,6 @@ header {
 }
 
 .barreHeader {
-  position: absolute;
   height: 65px;
   width: 100%;
   background: rgb(43, 46, 78);
@@ -607,4 +606,296 @@ footer > ul > li {
   margin-left: 10px;
   margin-right: 10px;
   color: whitesmoke;
+}
+
+/* deuxième menu */
+
+.menuDeux {
+  width: 950px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoM2 {
+  width: 30px;
+  height: 30px;
+  fill: rgb(245, 245, 245);
+}
+/* bouton a */
+
+.M2a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMa {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(216, 84, 135) 0%, #5560d6dc 100%);
+  transition: all 0.2s;
+}
+
+.M2a:hover > .animSMa {
+  width: 30px;
+}
+
+.M2a:hover {
+  opacity: 1;
+}
+
+/* bouton b */
+
+.M2b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMb {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(216, 106, 84) 0%, #d65555dc 100%);
+  transition: all 0.2s;
+}
+
+.M2b:hover > .animSMb {
+  width: 30px;
+}
+
+.M2b:hover {
+  opacity: 1;
+}
+
+/* bouton c */
+
+.M2c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMc {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(84, 95, 216) 0%, #d6558ddc 100%);
+  transition: all 0.2s;
+}
+
+.M2c:hover > .animSMc {
+  width: 30px;
+}
+
+.M2c:hover {
+  opacity: 1;
+}
+
+/* bouton d */
+
+.M2d {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMd {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(84, 95, 216) 0%, #d6558ddc 100%);
+  transition: all 0.2s;
+}
+
+.M2d:hover > .animSMd {
+  width: 30px;
+}
+
+.M2d:hover {
+  opacity: 1;
+}
+
+/* bouton e */
+
+.M2e {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMe {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, #65eed5 0%, #5560d6dc 100%);
+  transition: all 0.2s;
+}
+
+.M2e:hover > .animSMe {
+  width: 30px;
+}
+
+.M2e:hover {
+  opacity: 1;
+}
+
+/* bouton f */
+
+.M2f {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMf {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, #65eed5 0%, #5560d6dc 100%);
+  transition: all 0.2s;
+}
+
+.M2f:hover > .animSMf {
+  width: 30px;
+}
+.M2f:hover {
+  opacity: 1;
+}
+
+/* bouton g */
+
+.M2g {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMg {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(216, 106, 84) 0%, #5560d6dc 100%);
+  transition: all 0.2s;
+}
+
+.M2g:hover > .animSMg {
+  width: 30px;
+}
+
+.M2g:hover {
+  opacity: 1;
+}
+/* bouton h */
+
+.M2h {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  color: rgb(245, 245, 245);
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.animSMh {
+  width: 0px;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, rgb(216, 106, 84) 0%, #d65555dc 100%);
+  transition: all 0.2s;
+}
+
+.M2h:hover > .animSMh {
+  width: 30px;
+}
+
+.M2h:hover {
+  opacity: 1;
+}
+
+/* Menu 3 */
+
+.menuTrois {
+  width: 950px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logoM3 {
+  width: 17px;
+  height: 17px;
+  fill: #424cc1;
+  margin-right: 10px;
+  transition: all 0.2s;
+}
+
+.liM3 {
+  color: #424cc1;
+  width: auto;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 2px #424cc1;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  transition: all 0.2s;
+}
+
+.liM3:hover {
+  background: #424cc1;
+  color: rgb(31, 33, 61);
+}
+
+.liM3:hover > svg {
+  fill: rgb(31, 33, 61);
 }
