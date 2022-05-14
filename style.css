@@ -522,6 +522,8 @@ h3 + ul > li {
   color: whitesmoke;
   font-family: sans-serif;
   transition: color 0.15s;
+  border-left: 0.5px solid rgb(245, 245, 245, 0.3);
+  padding-left: 20px;
 }
 
 h3 + ul > li:hover {
@@ -586,4 +588,23 @@ h2:hover > .flècheAND {
 h2:hover > .flamme {
   fill: whitesmoke;
   transform: rotate(300deg);
+}
+
+/* pied de page du menu */
+
+.footerliste {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  background: rgb(33, 35, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > ul > li {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: whitesmoke;
 }
